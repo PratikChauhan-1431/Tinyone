@@ -1,0 +1,254 @@
+<html !doctype>
+<html>
+    <head>
+        <title>Job</title>
+        
+        <link rel="stylesheet" type="text/css" href="Css.css">
+         <style>
+
+</style>
+    </head>
+    
+<body>
+    <header class="header" id="home">
+        <div class="container">
+          <div class="menu">  
+            <a href="#"  id="mainbox" class="right_bt" id="activator"><img src="img/nav.png" alt="" onclick="openFunction()"/></a>
+            <div id="menu" class="sidemenu">
+               <div class="box_content_center">
+                 <div class="menu_box_list">
+                   <ul>
+				       <li><a href="#home" class="scroll">Home</a></li>
+				       <li class="active"><a href="#about" class="scroll">About</a></li> 
+                       <li><a href="#contact" class="scroll">Contact</a></li>
+				   </ul>
+                 </div>
+                   <a class="closebtn" onclick="closeFunction()" id="boxclose"><img src="img/close.png" alt=""/></a>    
+              </div>
+            </div>
+                <script type="text/javascript">
+                    function openFunction(){
+                        document.getElementById("menu").style.width="300px";}
+                    
+                    function closeFunction(){
+                        document.getElementById("menu").style.width="0px";
+                        document.getElementById("mainbox").style.marginLeft="0px";}
+                </script>
+           </div>
+          <div class="logo">
+				  <a href="Job.html"><img src="img/logo.png" alt=""></a>
+				</div>  
+           
+            
+        </div>
+  
+           <br> <br> <br> 
+          <div class="slideshow-container">
+
+<div class="mySlides fade">
+
+  <img src="img/th.jpg" style="width:100%; height: 400px">
+  <div class="text">Caption One</div>
+</div>
+
+<div class="mySlides fade">
+ 
+  <img  src="img/th.jpg" style="width:100%; height: 400px">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+
+  <img src="img/th.jpg" style="width:100%; height: 400px">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center; margin: -5px 0;">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+</script>
+     
+    </header>
+    
+ <div class="footer" id="contact">
+    <div class="container">
+        <div class="footer-top">
+            <h3> Keep in touch with us.</h3>
+            <p>
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            </p>
+            <input type="text" value="Enter your Email to Update" onfocus="this.value='';" onblur="if (this.value == '') {this.value = 'Enter your Email to Update';}">
+            <input type="submit">          
+        </div>
+        
+        <div class="row footer-row">
+            <div class="col-md-2 footer-row-column">
+                <p>HALOVIETNAM LTD 66, Dang Da Hanoi, Vietnam</p>
+                <small>
+                 <a href="#">contact@halovietnam.com</a>
+                </small>
+                <p>+844 35149182</p>    
+            </div>
+            <div class="col-md-2 footer-row-column">
+                <ul class="footer-add">
+                    <li>
+                        <a href="#">Examples</a>
+                    </li>
+                    <li>
+                        <a href="#">Shop</a>
+                    </li>
+                    <li>
+                        <a href="#">License</a>
+                    </li>  
+                </ul>
+            </div>
+            <div class="col-ms-2 footer-row-column">
+                <ul class="footer-add">
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li>
+                        <a href="#">Terms</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 footer-row-column">
+                <ul class="footer-add">
+                    <li>
+                        <a href="#">Download</a>
+                    </li>
+                    <li>
+                        <a href="#">Support</a>
+                    </li>
+                    <li>
+                        <a href="#">Documents</a>
+                    </li>  
+                </ul>
+            </div>
+            <div class="col-md-2 footer-row-column">
+                <ul class="footer-add">
+                    <li>
+                        <a href="#">Media</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Forums</a>
+                    </li>  
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <br>
+        <br><br><br><br><br><br><br>
+        <p class="copyright">
+            "2014 Template By"
+            <span>
+                <a href="http://w3layouts.com">W3Layouts</a>
+            </span>
+        </p>
+     </div>
+    
+    </div>  
+          
+    <header>
+
+    
+</header>
+
+    
+  
+
+    <!--
+    
+     <footer>
+    	<div class="container">
+    		<div class="row">
+        		<div class="col-lg-12">
+                	<h2>Keep in touch with us</h2>
+                    <p class="top" style="color: white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus<br> tristique bibendum. Donec rutrum sed sem quis venenatis.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+        		<div class="col-lg-12">
+                	<div class="mesg"><input type="text" placeholder="Enter your email to update"><button>SUBMIT</button></div>
+                </div>
+            </div>
+            
+            <div class="row">
+        		<div class="col-lg-4 col-sm-4 col-md-4">
+                	<address>
+                    	HALOVIETNAM LTD <br>
+                        66, Dang Van ngu, Dong Da<br>
+                        Hanoi, Vietnam<br>
+                        contact@halovietnam.com<br>
+                        +844 35149182
+                    </address>
+                </div>
+                <div class="col-lg-8 col-sm-8 col-md-8">
+                	<div class="row">
+                    	<div class="col-lg-3 col-sm-6 col-md-3">
+                        	<a href="#">Examples</a>
+                            <a href="#">Shop</a>
+                            <a href="#">License</a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+							<a href="#">Contact</a>
+                            <a href="#">About</a>
+                            <a href="#">Privacy</a>
+                            <a href="#">Terms</a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                        	<a href="#">Download</a>  
+                            <a href="#">Support</a>
+                            <a href="#">Documents</a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6 col-md-3">
+                        	<a href="#">Media</a>  
+                            <a href="#">Blog</a>
+                            <a href="#">Forums</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+         </div>
+         <p class="copyright" style="color: white" >2014 Template By <a href="http://w3layouts.com/">W3Layouts</a></p>
+     </footer>   
+       -->
+</body>    
+</html>
